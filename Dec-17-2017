@@ -24,11 +24,7 @@ socket.emit to sent information to server
 socket.on to recive information from server
 
 
-
-
 ## Next time material, check it before next time:
 The socket.io example cover most basic concept exclude "data base"&"production deployment" 
-The material we'll discuss will base on "Node.js in Action" 
-Chapter 5: Storing Node application data
-Chapter 12: Deploying Node applications and maintaining uptime
-And http://pm2.keymetrics.io/
+The material we discuss next will base on "Node.js in Action" Chapter 5: Storing Node application data
+& Chapter 12: Deploying Node applications and maintaining uptime & http://pm2.keymetrics.io/
