@@ -1,0 +1,34 @@
+Participate: Huanry, Tom Yang, Zhao Lei
+
+We review the https://socket.io/get-started/chat/ example, and Zhao Lei share his interesting project! 
+
+Review:
+
+1.package.json <--dependencies--> npm
+
+2."index.js" <--> server
+tools: http(already install node.js+npm), express (install via npm), socket.io (install via npm)
+
+"http + express" to create server,get request(/) from client, and resond index.html file, listen on port 
+
+"socket.io" by passing the http object. socket.on recive information from client, socket.emit sent information to client
+
+3."index.html" <--> client
+tool: jquery.js(js library),/socket.io/socket.io.js--generate by socket.io??
+use jquery.js
+$('label') to search html <label>
+$('#Id') to search label with id "Id"
+$('.Class') to search label with class "Class"
+
+socket.emit to sent information to server
+socket.on to recive information from server
+
+
+
+
+## Next time material, check it before next time:
+The socket.io example cover most basic concept exclude "data base"&"production deployment" 
+The material we'll discuss will base on "Node.js in Action" 
+Chapter 5: Storing Node application data
+Chapter 12: Deploying Node applications and maintaining uptime
+And http://pm2.keymetrics.io/
